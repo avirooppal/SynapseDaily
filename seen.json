@@ -1,1 +1,34 @@
-{}
+{
+ "cactuscompute.com/blog/whistle": {
+  "d": "2026-10-12",
+  "t": "Whistle: speech to text in 16.9 MB"
+ },
+ "arxiv:2610.13912": {
+  "d": "2026-10-12",
+  "t": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models"
+ },
+ "arxiv:2610.13395": {
+  "d": "2026-10-12",
+  "t": "ProgramGym: Scaling Training Environments for Long-Horizon Program Reproduction Agents"
+ },
+ "github.com/maziyarpanahi/openmed/releases/tag/v3.0.0": {
+  "d": "2026-10-12",
+  "t": "OpenMed 3.0 is out: Apache-2.0 clinical AI that runs fully local and never falls back to the cloud. 422 open issues if you want in on 3.1"
+ },
+ "arxiv:2610.07987": {
+  "d": "2026-10-12",
+  "t": "VisionWeave: Weaving Elastic Visual Representations as a Native Capability of MLLMs"
+ },
+ "momo5502.com/posts/2026-10-09-game-decompilation": {
+  "d": "2026-10-12",
+  "t": "500B tokens later: Letting AI agents decompile a first-person shooter"
+ },
+ "vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things": {
+  "d": "2026-10-12",
+  "t": "Using AI for just 10 minutes erodes your ability to persist at hard things"
+ },
+ "bbc.com/news/articles/c5vgjm3gk7rzo": {
+  "d": "2026-10-12",
+  "t": "AI is creating a 'human premium' for art created by people"
+ }
+}
