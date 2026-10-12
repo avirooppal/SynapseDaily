@@ -479,8 +479,8 @@ class Gemini:
 
 class OpenRouter:
     def __init__(self, api_key: str):
-        self.key = api_key
-        self.model = os.getenv("OPENROUTER_MODEL", OPENROUTER_DEFAULT_MODEL)
+        self.key = api_key.strip()
+        self.model = (os.getenv("OPENROUTER_MODEL") or "").strip() or OPENROUTER_DEFAULT_MODEL
 
     def summarize(self, it: Item, text: str, retries: int = 4):
         user = (f"TITLE: {it.title}\nKIND: {it.kind}\n"
@@ -513,7 +513,9 @@ class OpenRouter:
                     log.warning("OpenRouter %s, retrying in %ss", r.status_code, wait)
                     time.sleep(wait)
                     continue
-                r.raise_for_status()
+                if not r.ok:
+                    log.error("OpenRouter error %s: %s", r.status_code, r.text)
+                    r.raise_for_status()
                 return self._parse(r.json())
             except requests.RequestException as e:
                 if attempt == retries - 1:
@@ -545,9 +547,9 @@ class OpenRouter:
 
 
 def get_llm():
-    provider = os.getenv("LLM_PROVIDER", "").lower()
-    or_key = os.getenv("OPENROUTER_API_KEY")
-    gemini_key = os.getenv("GEMINI_API_KEY")
+    provider = (os.getenv("LLM_PROVIDER") or "").strip().lower()
+    or_key = (os.getenv("OPENROUTER_API_KEY") or "").strip()
+    gemini_key = (os.getenv("GEMINI_API_KEY") or "").strip()
 
     if provider == "openrouter":
         if not or_key:
