@@ -2,7 +2,7 @@
 
 Every morning (08:00 IST) this pulls the day's AI news and papers, merges duplicates across sources,
 ranks them, reads the actual pages, and sends you short grounded summaries on Telegram.
-Cost: free (GitHub Actions + Gemini free tier + Telegram).
+Cost: free (GitHub Actions + OpenRouter / Gemini free tiers + Telegram).
 
 Sources: Hacker News, HF Daily Papers, arXiv (cs.AI/LG/CL), r/LocalLLaMA, r/MachineLearning,
 official lab blogs, and new model repos from DeepSeek/Qwen/Meta/Mistral/Google/etc. on Hugging Face.
@@ -12,17 +12,20 @@ official lab blogs, and new model repos from DeepSeek/Qwen/Meta/Mistral/Google/e
 1. **Telegram bot**: message `@BotFather` → `/newbot` → copy the token.
    Then send any message to your new bot, open
    `https://api.telegram.org/bot<TOKEN>/getUpdates` and copy `message.chat.id`.
-2. **Gemini key**: https://aistudio.google.com → *Get API key* (free, no billing).
+2. **LLM key**:
+   - **OpenRouter** (recommended, access to models like `nvidia/nemotron-3-ultra-550b-a55b:free`): https://openrouter.ai/keys
+   - **Gemini**: https://aistudio.google.com → *Get API key* (free, no billing).
 3. **GitHub**: push this folder to a new repo (private is fine), then
    *Settings → Secrets and variables → Actions* and add:
-   `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `GEMINI_API_KEY`.
+   `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, and either `OPENROUTER_API_KEY` or `GEMINI_API_KEY`.
 4. **Test**: *Actions → Daily AI Digest → Run workflow*. After that it runs daily on its own.
 
 Local dry run (prints instead of sending, doesn't touch `seen.json`):
 
 ```bash
 pip install -r requirements.txt
-export GEMINI_API_KEY=...
+export OPENROUTER_API_KEY=...
+# or export GEMINI_API_KEY=...
 python digest.py --dry-run
 ```
 
@@ -36,6 +39,8 @@ python digest.py --dry-run
 | HN topic filter | `AI_WORDS` |
 | Mix of papers vs models vs news | `KIND_CAPS` |
 | Send time | cron in `.github/workflows/daily-digest.yml` (UTC) |
+| Provider select | env `LLM_PROVIDER` (`openrouter` or `gemini`, auto-detected if unset) |
+| OpenRouter model | env `OPENROUTER_MODEL` (default: `nvidia/nemotron-3-ultra-550b-a55b:free`) |
 | Gemini model | env `GEMINI_MODEL` (default: `gemini-flash-latest`, falls back to flash-lite) |
 
 ## Notes

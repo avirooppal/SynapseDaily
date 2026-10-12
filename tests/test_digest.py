@@ -4,7 +4,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import digest
-from digest import Item, canon_key, format_item, merge, rank, similar, Gemini
+from digest import Item, canon_key, format_item, merge, rank, similar, Gemini, OpenRouter, get_llm
 
 
 def test_canon_key():
@@ -57,6 +57,62 @@ def test_gemini_parse():
     assert out["headline"] == "h" and len(out["bullets"]) == 4
     assert Gemini._parse({"candidates": []}) is None
     assert Gemini._parse({"candidates": [{"content": {"parts": [{"text": "not json"}]}}]}) is None
+
+
+def test_openrouter_parse():
+    # Direct JSON
+    direct = {
+        "choices": [{
+            "message": {
+                "content": '{"skip": false, "headline": "h", "bullets": ["1", "2", "3", "4", "5"], "why_it_matters": "w", "importance": 8}'
+            }
+        }]
+    }
+    out = OpenRouter._parse(direct)
+    assert out["headline"] == "h" and len(out["bullets"]) == 4 and out["importance"] == 8
+
+    # Wrapped in markdown code fence
+    fenced = {
+        "choices": [{
+            "message": {
+                "content": '```json\n{"skip": true, "headline": "h2", "bullets": ["1"], "why_it_matters": "w", "importance": 3}\n```'
+            }
+        }]
+    }
+    out2 = OpenRouter._parse(fenced)
+    assert out2["skip"] is True and out2["headline"] == "h2"
+
+    # Invalid / empty
+    assert OpenRouter._parse({"choices": [{"message": {"content": ""}}]}) is None
+    assert OpenRouter._parse({"choices": []}) is None
+    assert OpenRouter._parse({"choices": [{"message": {"content": "not json"}}]}) is None
+
+
+def test_get_llm(monkeypatch=None):
+    import os
+    orig_env = os.environ.copy()
+    try:
+        os.environ.pop("OPENROUTER_API_KEY", None)
+        os.environ.pop("GEMINI_API_KEY", None)
+        os.environ.pop("LLM_PROVIDER", None)
+
+        assert get_llm() is None
+
+        os.environ["OPENROUTER_API_KEY"] = "or-test"
+        assert isinstance(get_llm(), OpenRouter)
+
+        os.environ["GEMINI_API_KEY"] = "gem-test"
+        # defaults to OpenRouter when both present unless specified
+        assert isinstance(get_llm(), OpenRouter)
+
+        os.environ["LLM_PROVIDER"] = "gemini"
+        assert isinstance(get_llm(), Gemini)
+
+        os.environ["LLM_PROVIDER"] = "openrouter"
+        assert isinstance(get_llm(), OpenRouter)
+    finally:
+        os.environ.clear()
+        os.environ.update(orig_env)
 
 
 if __name__ == "__main__":

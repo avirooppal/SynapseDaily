@@ -7,10 +7,13 @@ Pipeline: fetch -> merge duplicates across sources -> rank -> enrich with real
 page text -> LLM summary (grounded, JSON) -> Telegram.
 
 Env vars:
-  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, GEMINI_API_KEY   (required)
-  GEMINI_MODEL   optional, overrides the model (default: flash "latest" aliases)
-  TOP_N          optional, items per digest (default 8)
-  TZ_NAME        optional, timezone for the header date (default Asia/Kolkata)
+  TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID   (required for sending)
+  OPENROUTER_API_KEY or GEMINI_API_KEY   (required for summaries)
+  OPENROUTER_MODEL  optional, overrides OpenRouter model (default: nvidia/nemotron-3-ultra-550b-a55b:free)
+  GEMINI_MODEL      optional, overrides Gemini model (default: flash "latest" aliases)
+  LLM_PROVIDER      optional, 'openrouter' or 'gemini' (auto-detected if omitted)
+  TOP_N             optional, items per digest (default 8)
+  TZ_NAME           optional, timezone for the header date (default Asia/Kolkata)
 """
 import argparse
 import calendar
@@ -81,6 +84,9 @@ ARXIV_QUERY = "cat:cs.AI OR cat:cs.LG OR cat:cs.CL"
 
 GEMINI_MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"]
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+
+OPENROUTER_DEFAULT_MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
+OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 KIND_PRIORITY = {"discussion": 0, "paper": 1, "news": 2, "model": 3}
 
@@ -471,6 +477,94 @@ class Gemini:
             return None
 
 
+class OpenRouter:
+    def __init__(self, api_key: str):
+        self.key = api_key
+        self.model = os.getenv("OPENROUTER_MODEL", OPENROUTER_DEFAULT_MODEL)
+
+    def summarize(self, it: Item, text: str, retries: int = 4):
+        user = (f"TITLE: {it.title}\nKIND: {it.kind}\n"
+                f"SEEN ON: {', '.join(it.sources)}\nSOURCE TEXT:\n{text or '(none available)'}")
+        system = (
+            f"{SYSTEM_PROMPT}\n"
+            'Respond ONLY with a valid JSON object matching: '
+            '{"skip": bool, "headline": string, "bullets": [string, ...], "why_it_matters": string, "importance": int}'
+        )
+        body = {
+            "model": self.model,
+            "messages": [
+                {"role": "system", "content": system},
+                {"role": "user", "content": user},
+            ],
+            "response_format": {"type": "json_object"},
+            "temperature": 0.2,
+        }
+        headers = {
+            "Authorization": f"Bearer {self.key}",
+            "Content-Type": "application/json",
+            "HTTP-Referer": "https://github.com/ai-digest",
+            "X-Title": "AI Digest",
+        }
+        for attempt in range(retries):
+            try:
+                r = requests.post(OPENROUTER_URL, json=body, headers=headers, timeout=90)
+                if r.status_code == 429 or r.status_code >= 500:
+                    wait = min(60, 8 * 2 ** attempt)
+                    log.warning("OpenRouter %s, retrying in %ss", r.status_code, wait)
+                    time.sleep(wait)
+                    continue
+                r.raise_for_status()
+                return self._parse(r.json())
+            except requests.RequestException as e:
+                if attempt == retries - 1:
+                    raise
+                wait = min(60, 8 * 2 ** attempt)
+                log.warning("OpenRouter error (%s), retrying in %ss", e, wait)
+                time.sleep(wait)
+        raise RuntimeError(f"OpenRouter model {self.model} failed after {retries} retries")
+
+    @staticmethod
+    def _parse(data):
+        try:
+            content = data["choices"][0]["message"].get("content", "")
+            if not content:
+                return None
+            clean = content.strip()
+            fence_match = re.search(r"```(?:json)?\s*([\s\S]*?)\s*```", clean)
+            if fence_match:
+                clean = fence_match.group(1).strip()
+            else:
+                brace_match = re.search(r"(\{[\s\S]*\})", clean)
+                if brace_match:
+                    clean = brace_match.group(1).strip()
+            out = json.loads(clean)
+            out["bullets"] = [str(b) for b in out.get("bullets", [])][:4]
+            return out
+        except (KeyError, IndexError, ValueError, TypeError):
+            return None
+
+
+def get_llm():
+    provider = os.getenv("LLM_PROVIDER", "").lower()
+    or_key = os.getenv("OPENROUTER_API_KEY")
+    gemini_key = os.getenv("GEMINI_API_KEY")
+
+    if provider == "openrouter":
+        if not or_key:
+            raise ValueError("LLM_PROVIDER is 'openrouter' but OPENROUTER_API_KEY is not set")
+        return OpenRouter(or_key)
+    if provider == "gemini":
+        if not gemini_key:
+            raise ValueError("LLM_PROVIDER is 'gemini' but GEMINI_API_KEY is not set")
+        return Gemini(gemini_key)
+
+    if or_key:
+        return OpenRouter(or_key)
+    if gemini_key:
+        return Gemini(gemini_key)
+    return None
+
+
 # --------------------------------------------------------------------------
 # Telegram
 # --------------------------------------------------------------------------
@@ -523,7 +617,7 @@ def collect():
     return merge(raw)
 
 
-def build_digest(llm: Gemini, seen):
+def build_digest(llm, seen):
     candidates = rank(collect(), seen)
     log.info("%d ranked candidates", len(candidates))
     kept, calls = [], 0
@@ -547,15 +641,20 @@ def build_digest(llm: Gemini, seen):
 
 
 def main():
+    if hasattr(sys.stdout, "reconfigure"):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except Exception:
+            pass
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="print instead of sending; don't update seen.json")
     args = ap.parse_args()
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
-    key = os.getenv("GEMINI_API_KEY")
-    if not key or (not args.dry_run and not (token and chat)):
-        sys.exit("Missing env: GEMINI_API_KEY and (unless --dry-run) TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID")
+    llm = get_llm()
+    if not llm or (not args.dry_run and not (token and chat)):
+        sys.exit("Missing env: OPENROUTER_API_KEY or GEMINI_API_KEY, and (unless --dry-run) TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID")
 
     def send(text):
         if args.dry_run:
@@ -566,7 +665,7 @@ def main():
 
     try:
         seen = load_seen()
-        kept = build_digest(Gemini(key), seen)
+        kept = build_digest(llm, seen)
         today = datetime.now(ZoneInfo(os.getenv("TZ_NAME", "Asia/Kolkata"))).strftime("%a %d %b")
         if not kept:
             send(f"📡 <b>AI Digest — {today}</b>\nNothing new worth your time today.")
