@@ -30,5 +30,37 @@
  "bbc.com/news/articles/c5vgjm3gk7rzo": {
   "d": "2026-10-12",
   "t": "AI is creating a 'human premium' for art created by people"
+ },
+ "arxiv:2610.13928": {
+  "d": "2026-10-13",
+  "t": "AI models can provably hide arbitrary capabilities"
+ },
+ "arxiv:2610.12572": {
+  "d": "2026-10-13",
+  "t": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models"
+ },
+ "arxiv:2610.13527": {
+  "d": "2026-10-13",
+  "t": "S-Space: Exploring Spatial Workspace in Multimodal Language Models"
+ },
+ "intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html": {
+  "d": "2026-10-13",
+  "t": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
+ },
+ "taylor.town/kk-ai-2026": {
+  "d": "2026-10-13",
+  "t": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
+ },
+ "github.com/qgis/QGIS-Enhancement-Proposals/pull/387": {
+  "d": "2026-10-13",
+  "t": "QGIS enacts moratorium on AI contributions"
+ },
+ "news.ycombinator.com/item?id=50059096": {
+  "d": "2026-10-13",
+  "t": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
+ },
+ "argmin.net/p/faster-fourier-transforms": {
+  "d": "2026-10-13",
+  "t": "A look at the math that OpenAI claims computes faster Fourier transforms"
  }
 }
