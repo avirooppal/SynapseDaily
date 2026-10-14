@@ -62,5 +62,37 @@
  "argmin.net/p/faster-fourier-transforms": {
   "d": "2026-10-13",
   "t": "A look at the math that OpenAI claims computes faster Fourier transforms"
+ },
+ "deepmind.google/models/gemini": {
+  "d": "2026-10-14",
+  "t": "Gemini 4 Argon"
+ },
+ "anthropic.com/engineering/redesigning-source-control": {
+  "d": "2026-10-14",
+  "t": "Redesigning source control at Anthropic"
+ },
+ "developers.googleblog.com/gemini-4-argon-for-robotics": {
+  "d": "2026-10-14",
+  "t": "Gemini 4 Argon for Robotics"
+ },
+ "arxiv:2609.39601": {
+  "d": "2026-10-14",
+  "t": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives"
+ },
+ "arxiv:2610.13361": {
+  "d": "2026-10-14",
+  "t": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?"
+ },
+ "arxiv:2610.13166": {
+  "d": "2026-10-14",
+  "t": "Scaling Agentic Data for Long-Horizon Terminal Intelligence"
+ },
+ "arxiv:2610.11765": {
+  "d": "2026-10-14",
+  "t": "Thinking Inertia: LLMs Keep Thinking When Told Not To"
+ },
+ "sammystraus.com": {
+  "d": "2026-10-14",
+  "t": "I posted to HN, and then my website was flooded with AI bot traffic"
  }
 }
