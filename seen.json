@@ -94,5 +94,37 @@
  "sammystraus.com": {
   "d": "2026-10-14",
   "t": "I posted to HN, and then my website was flooded with AI bot traffic"
+ },
+ "csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html": {
+  "d": "2026-10-15",
+  "t": "Containment and monitoring failures are to blame for AI hacking reports: experts"
+ },
+ "arxiv:2610.20584": {
+  "d": "2026-10-15",
+  "t": "Player-1: Learning to Play from Synthetic Experience"
+ },
+ "openai.com/index/third-moment-research": {
+  "d": "2026-10-15",
+  "t": "How Third Moment Research runs 10,000 agents for 36+ hours"
+ },
+ "openai.com/index/block-ai-powered-security": {
+  "d": "2026-10-15",
+  "t": "How Block is building AI-powered security with OpenAI technology"
+ },
+ "arxiv:2610.18773": {
+  "d": "2026-10-15",
+  "t": "Jeva: System One Models from First Principles"
+ },
+ "arcfu.com/post/the-emperor-pelican-has-no-clothes": {
+  "d": "2026-10-15",
+  "t": "Why do LLM pelicans look like this?"
+ },
+ "openai.com/index/amp-beyond-coding": {
+  "d": "2026-10-15",
+  "t": "Amp puts AI agents to work beyond code with OpenAI models"
+ },
+ "openai.com/index/sentinelone": {
+  "d": "2026-10-15",
+  "t": "SentinelOne cuts malware analysis from weeks to hours"
  }
 }
