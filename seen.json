@@ -126,5 +126,37 @@
  "openai.com/index/sentinelone": {
   "d": "2026-10-15",
   "t": "SentinelOne cuts malware analysis from weeks to hours"
+ },
+ "arxiv:2610.22350": {
+  "d": "2026-10-18",
+  "t": "FDE-Gym: The Last Mile of AI Delivery"
+ },
+ "openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
+  "d": "2026-10-18",
+  "t": "DeepSeek: DeepSeek v4.1 Flash 1017"
+ },
+ "arxiv:2610.20939": {
+  "d": "2026-10-18",
+  "t": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments"
+ },
+ "arxiv:2610.22200": {
+  "d": "2026-10-18",
+  "t": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use"
+ },
+ "arxiv:2610.22276": {
+  "d": "2026-10-18",
+  "t": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching"
+ },
+ "hf:deepseek-ai/deepseek-v4.1-flash-1017": {
+  "d": "2026-10-18",
+  "t": "DeepSeek-v4.1-Flash-1017"
+ },
+ "alexwang.ai/posts/associative-memory": {
+  "d": "2026-10-18",
+  "t": "You could have invented transformers from memory"
+ },
+ "llmspeed.dev": {
+  "d": "2026-10-18",
+  "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware"
  }
 }
