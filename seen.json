@@ -158,5 +158,37 @@
  "llmspeed.dev": {
   "d": "2026-10-18",
   "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware"
+ },
+ "arxiv:2610.18861": {
+  "d": "2026-10-19",
+  "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
+ },
+ "arxiv:2610.18784": {
+  "d": "2026-10-19",
+  "t": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents"
+ },
+ "api-docs.deepseek.com/guides/search": {
+  "d": "2026-10-19",
+  "t": "DeepSeek search and fetch – $0.75 per 1000 successful requests"
+ },
+ "arxiv:2610.21261": {
+  "d": "2026-10-19",
+  "t": "Behavioral Compositionality of Sparse Autoencoder Representations"
+ },
+ "arxiv:2610.22471": {
+  "d": "2026-10-19",
+  "t": "Has GPT-6-Astra Achieved Embodied Intelligence?"
+ },
+ "blog.picheta.me/post/killswitch-lang": {
+  "d": "2026-10-19",
+  "t": "I built a programming language that LLMs can't use"
+ },
+ "sphinx-six-theta.vercel.app": {
+  "d": "2026-10-19",
+  "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
+ },
+ "tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model": {
+  "d": "2026-10-19",
+  "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
  }
 }
