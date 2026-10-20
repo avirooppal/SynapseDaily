@@ -190,5 +190,37 @@
  "tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model": {
   "d": "2026-10-19",
   "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
+ },
+ "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
+  "d": "2026-10-20",
+  "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
+ },
+ "inceptionlabs.ai/blog/introducing-mercury-3": {
+  "d": "2026-10-20",
+  "t": "Mercury 3: Diffusion at scale"
+ },
+ "mistral.ai/news/timestral": {
+  "d": "2026-10-20",
+  "t": "Timestral: Mistral's time-series foundation models"
+ },
+ "arxiv:2610.23479": {
+  "d": "2026-10-20",
+  "t": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents"
+ },
+ "arxiv:2610.20424": {
+  "d": "2026-10-20",
+  "t": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business"
+ },
+ "arxiv:2610.20951": {
+  "d": "2026-10-20",
+  "t": "LEV: Thinking Fast and Deep with Looped Decision Models"
+ },
+ "arxiv:2610.21783": {
+  "d": "2026-10-20",
+  "t": "Learning to Think and Explore in 3D World"
+ },
+ "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
+  "d": "2026-10-20",
+  "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
  }
 }
