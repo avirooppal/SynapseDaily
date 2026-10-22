@@ -254,5 +254,37 @@
  "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
   "d": "2026-10-21",
   "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
+ },
+ "wiz.io/blog/php2shell-php-rce": {
+  "d": "2026-10-22",
+  "t": "PHP2Shell: AI uncovers critical RCE in PHP"
+ },
+ "mistral.ai/news/mistral-large-4": {
+  "d": "2026-10-22",
+  "t": "Mistral Large 4"
+ },
+ "arxiv:2610.27999": {
+  "d": "2026-10-22",
+  "t": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds"
+ },
+ "claude.com/resources/articles/claude-duet": {
+  "d": "2026-10-22",
+  "t": "Claude Duet"
+ },
+ "arxiv:2610.26855": {
+  "d": "2026-10-22",
+  "t": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience"
+ },
+ "arxiv:2610.27628": {
+  "d": "2026-10-22",
+  "t": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking"
+ },
+ "openai.com/index/openai-models-google-cloud": {
+  "d": "2026-10-22",
+  "t": "OpenAI models are coming to Google Cloud"
+ },
+ "arxiv:2610.26203": {
+  "d": "2026-10-22",
+  "t": "Focused Omni-Modal GUI Agents"
  }
 }
