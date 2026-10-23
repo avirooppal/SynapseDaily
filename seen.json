@@ -286,5 +286,37 @@
  "arxiv:2610.26203": {
   "d": "2026-10-22",
   "t": "Focused Omni-Modal GUI Agents"
+ },
+ "anthropic.com/research/formal-verification": {
+  "d": "2026-10-23",
+  "t": "LLMs are making formal software verification feasible at a much larger scale"
+ },
+ "arxiv:2610.29997": {
+  "d": "2026-10-23",
+  "t": "DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonstrations"
+ },
+ "gh:nvidia/openshell": {
+  "d": "2026-10-23",
+  "t": "OpenShell – A safe, private runtime for fleets of autonomous AI agents"
+ },
+ "arxiv:2610.28402": {
+  "d": "2026-10-23",
+  "t": "StreamEval: Evaluating Interactive Streaming Video Generation Models"
+ },
+ "arxiv:2610.29989": {
+  "d": "2026-10-23",
+  "t": "Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation"
+ },
+ "arxiv:2610.26659": {
+  "d": "2026-10-23",
+  "t": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?"
+ },
+ "modelcompare.ai/blog/ai-models-controversial-take-on-humans": {
+  "d": "2026-10-23",
+  "t": "Every AI model has the same \"controversial\" take on humans"
+ },
+ "gh:openai/openai-cli": {
+  "d": "2026-10-23",
+  "t": "OpenAI CLI"
  }
 }
