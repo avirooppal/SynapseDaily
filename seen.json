@@ -350,5 +350,37 @@
  "openai.com/index/scaling-storage-one-billion-users-part-two": {
   "d": "2026-10-24",
   "t": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
+ },
+ "apricitas.io/p/ai-and-the-fall-of-the-creative-class": {
+  "d": "2026-10-25",
+  "t": "America has lost 200k of jobs in media, film and the arts. How much is AI?"
+ },
+ "gh:zagitta/gpu-unlock": {
+  "d": "2026-10-25",
+  "t": "GPU-unlock: FP/BF16 instruction issue rate on Nvidia 3000's cards"
+ },
+ "gh:slee-persis/gvs5h": {
+  "d": "2026-10-25",
+  "t": "Five Qwen3.8-27B models match Fable 5 Using GVS5H Harness"
+ },
+ "arxiv:2610.29162": {
+  "d": "2026-10-25",
+  "t": "Why is AI generated language so hard to understand?"
+ },
+ "cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras": {
+  "d": "2026-10-25",
+  "t": "Cerebras Deploys Trillion-Parameter AI Models"
+ },
+ "arxiv:2610.30949": {
+  "d": "2026-10-25",
+  "t": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems"
+ },
+ "actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2": {
+  "d": "2026-10-25",
+  "t": "Neural chip decodes interactions between brain regions"
+ },
+ "arxiv:2610.28889": {
+  "d": "2026-10-25",
+  "t": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks"
  }
 }
