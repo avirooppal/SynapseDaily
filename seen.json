@@ -382,5 +382,37 @@
  "arxiv:2610.28889": {
   "d": "2026-10-25",
   "t": "Policy-Mask: Budget-Aware Adaptation of Diffusion Features to Discriminative Tasks"
+ },
+ "minimaxir.com/2026/10/cheap-llms": {
+  "d": "2026-10-26",
+  "t": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?"
+ },
+ "arxiv:2610.23987": {
+  "d": "2026-10-26",
+  "t": "What Generation Knows: Unlocking Fine-Grained Understanding in Unified Multimodal Models"
+ },
+ "arxiv:2610.30932": {
+  "d": "2026-10-26",
+  "t": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents"
+ },
+ "lynchlab.net/llm-skin-cancer": {
+  "d": "2026-10-26",
+  "t": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis"
+ },
+ "techspot.com/news/114171-nikon-photography-contest-winner-loses-title-after-scientists.html": {
+  "d": "2026-10-26",
+  "t": "Nikon photography contest winner loses title after scientists spot signs of AI"
+ },
+ "hf:nanbeige/nanbeige4.3-33b": {
+  "d": "2026-10-26",
+  "t": "Nanbeige/Nanbeige4.3-33B · Hugging Face"
+ },
+ "techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang": {
+  "d": "2026-10-26",
+  "t": "SMH, seriously? -->> NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang"
+ },
+ "arxiv:2610.30753": {
+  "d": "2026-10-26",
+  "t": "FilmFlow: Agentic System for 3D Virtual Film Cinematography"
  }
 }
