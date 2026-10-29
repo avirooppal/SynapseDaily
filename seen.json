@@ -446,5 +446,37 @@
  "spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup": {
   "d": "2026-10-28",
   "t": "Wikipedia's Cleanup of AI-Generated Content"
+ },
+ "arxiv:2610.35864": {
+  "d": "2026-10-29",
+  "t": "VibeVideoBench: Evaluating Multimodal Agents on Code-Driven Video Generation"
+ },
+ "arxiv:2610.37381": {
+  "d": "2026-10-29",
+  "t": "PDRVLA: A Vision-Language-Action Model with Physical Dynamics Representations"
+ },
+ "arxiv:2610.36077": {
+  "d": "2026-10-29",
+  "t": "The Trinity:Capability-Driven Recursive Self-Improvement for Multimodal Agents"
+ },
+ "surgehq.ai/blog/dayjob-tax": {
+  "d": "2026-10-29",
+  "t": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments"
+ },
+ "divagr.com/blog/qwenputer": {
+  "d": "2026-10-29",
+  "t": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5"
+ },
+ "arxiv:2610.35013": {
+  "d": "2026-10-29",
+  "t": "Multiscale Policy Optimization for Long-Horizon LLM Agents"
+ },
+ "cursor.com/blog/agent-sdk": {
+  "d": "2026-10-29",
+  "t": "The Agent SDK"
+ },
+ "gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
+  "d": "2026-10-29",
+  "t": "Claude Code regularly sends each background agent’s transcript to its model"
  }
 }
