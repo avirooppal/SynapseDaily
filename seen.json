@@ -478,5 +478,37 @@
  "gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce": {
   "d": "2026-10-29",
   "t": "Claude Code regularly sends each background agent’s transcript to its model"
+ },
+ "mistral.ai/news/mistral-large-4-oss": {
+  "d": "2026-10-30",
+  "t": "We're releasing the weights of Mistral Large 4"
+ },
+ "arxiv:2610.32749": {
+  "d": "2026-10-30",
+  "t": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes"
+ },
+ "artificialanalysis.ai/articles/gemini-4-carbon-new-number-1": {
+  "d": "2026-10-30",
+  "t": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5"
+ },
+ "arxiv:2610.35684": {
+  "d": "2026-10-30",
+  "t": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images"
+ },
+ "labs.ycombinator.com/projects/games/index.html": {
+  "d": "2026-10-30",
+  "t": "We ran AI agent swarms in Minecraft and Mindustry"
+ },
+ "arxiv:2610.39633": {
+  "d": "2026-10-30",
+  "t": "Intrinsic Distribution Matching"
+ },
+ "arxiv:2610.29927": {
+  "d": "2026-10-30",
+  "t": "Your Benchmark Is an Empirical Measure Over Difficulty"
+ },
+ "gh:mottopanikeiku/doomformer": {
+  "d": "2026-10-30",
+  "t": "Show HN: I Turned DOOM into a Transformer"
  }
 }
