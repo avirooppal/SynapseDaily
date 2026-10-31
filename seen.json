@@ -510,5 +510,37 @@
  "gh:mottopanikeiku/doomformer": {
   "d": "2026-10-30",
   "t": "Show HN: I Turned DOOM into a Transformer"
+ },
+ "phorion.io/blog/offical-claude-code-vsx-compromise": {
+  "d": "2026-10-31",
+  "t": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace"
+ },
+ "arxiv:2610.39302": {
+  "d": "2026-10-31",
+  "t": "Proving and Improving the Platonic Representation Hypothesis with JEPAs"
+ },
+ "arxiv:2610.39301": {
+  "d": "2026-10-31",
+  "t": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities"
+ },
+ "arxiv:2610.36671": {
+  "d": "2026-10-31",
+  "t": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs"
+ },
+ "arxiv:2610.38568": {
+  "d": "2026-10-31",
+  "t": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement"
+ },
+ "gh:dbreunig/nesformer": {
+  "d": "2026-10-31",
+  "t": "Show HN: A working Nintendo in ~1GB of Qwen weights"
+ },
+ "newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling": {
+  "d": "2026-10-31",
+  "t": "AI isn't replacing SREs, it's deskilling them"
+ },
+ "404media.co/protons-ceo-cancels-ai-re-interviews": {
+  "d": "2026-10-31",
+  "t": "Proton's CEO Cancels AI 'Re-Interviews'"
  }
 }
