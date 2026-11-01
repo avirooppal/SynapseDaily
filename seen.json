@@ -542,5 +542,37 @@
  "404media.co/protons-ceo-cancels-ai-re-interviews": {
   "d": "2026-10-31",
   "t": "Proton's CEO Cancels AI 'Re-Interviews'"
+ },
+ "blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer": {
+  "d": "2026-11-01",
+  "t": "Malware uses LLMs to rank victims by how much they're worth"
+ },
+ "arxiv:2610.40647": {
+  "d": "2026-11-01",
+  "t": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers"
+ },
+ "arxiv:2610.40614": {
+  "d": "2026-11-01",
+  "t": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory"
+ },
+ "nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks": {
+  "d": "2026-11-01",
+  "t": "The AI cost of JavaScript frameworks"
+ },
+ "blog.keyvan.net/p/ai-text-watermarking-and-quality": {
+  "d": "2026-11-01",
+  "t": "AI text watermarking and quality loss"
+ },
+ "twitter.com/jiahaoshao1/status/2116475922190922088": {
+  "d": "2026-11-01",
+  "t": "Anthropic blocks users for anything touching training larger models"
+ },
+ "github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve": {
+  "d": "2026-11-01",
+  "t": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard"
+ },
+ "ryanmadden.net/gpt-56-beats-factorio": {
+  "d": "2026-11-01",
+  "t": "GPT-5.6 Sol can beat Factorio on peaceful mode"
  }
 }
