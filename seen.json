@@ -574,5 +574,37 @@
  "ryanmadden.net/gpt-56-beats-factorio": {
   "d": "2026-11-01",
   "t": "GPT-5.6 Sol can beat Factorio on peaceful mode"
+ },
+ "arxiv:2610.42149": {
+  "d": "2026-11-02",
+  "t": "Latent Reasoning in Continuous Space for Unified Multimodal Models"
+ },
+ "arxiv:2610.22740": {
+  "d": "2026-11-02",
+  "t": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop"
+ },
+ "arxiv:2610.42141": {
+  "d": "2026-11-02",
+  "t": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory"
+ },
+ "x.com/askalphaxiv/status/2116779287390896418": {
+  "d": "2026-11-02",
+  "t": "new research: A tiny 109M-parameter model outperforms models up to 72B parameters at image-text alignment, using 42× less training data"
+ },
+ "techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist": {
+  "d": "2026-11-02",
+  "t": "AI delivers 'zero financial payoff' to most companies, Apollo economist says"
+ },
+ "tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy": {
+  "d": "2026-11-02",
+  "t": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy"
+ },
+ "arxiv:2610.39497": {
+  "d": "2026-11-02",
+  "t": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?"
+ },
+ "eurogamer.net/ai-fan-wikis-errors-complicating-games-culture": {
+  "d": "2026-11-02",
+  "t": "AI fan wikis riddled with errors are muddying the waters of games culture"
  }
 }
