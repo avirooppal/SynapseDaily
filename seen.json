@@ -606,5 +606,37 @@
  "eurogamer.net/ai-fan-wikis-errors-complicating-games-culture": {
   "d": "2026-11-02",
   "t": "AI fan wikis riddled with errors are muddying the waters of games culture"
+ },
+ "labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2": {
+  "d": "2026-11-03",
+  "t": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48"
+ },
+ "rikiyat.github.io/blog/weight-space-programming": {
+  "d": "2026-11-03",
+  "t": "Astra can read and write weights to improve Qwen"
+ },
+ "arxiv:2610.42053": {
+  "d": "2026-11-03",
+  "t": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control"
+ },
+ "momentic.ai": {
+  "d": "2026-11-03",
+  "t": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app"
+ },
+ "regenerator1.com/p/anthropics-growth-just-flattened": {
+  "d": "2026-11-03",
+  "t": "Anthropic's growth just flattened"
+ },
+ "arxiv:2611.00859": {
+  "d": "2026-11-03",
+  "t": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation"
+ },
+ "businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11": {
+  "d": "2026-11-03",
+  "t": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay"
+ },
+ "arxiv:2610.36545": {
+  "d": "2026-11-03",
+  "t": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation"
  }
 }
