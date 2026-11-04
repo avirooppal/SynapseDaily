@@ -638,5 +638,37 @@
  "arxiv:2610.36545": {
   "d": "2026-11-03",
   "t": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation"
+ },
+ "github.com/postmanlabs/postman-app-support/issues/14370": {
+  "d": "2026-11-04",
+  "t": "Postman silently auto-installs AI plugins and attempts to share all API data"
+ },
+ "simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights": {
+  "d": "2026-11-04",
+  "t": "Qwen 3.8 27B on my laptop can interpret model weights, too"
+ },
+ "ben.stolovitz.com/posts/how-use-ai-oct-2026": {
+  "d": "2026-11-04",
+  "t": "How I use AI (Oct 2026)"
+ },
+ "honnibal.dev/blog/astra-read-write-misleading": {
+  "d": "2026-11-04",
+  "t": "The 'Astra can read and write weights to improve Qwen' post is misleading"
+ },
+ "arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand": {
+  "d": "2026-11-04",
+  "t": "Fujifilm to boost tape production 5x as AI fuels archiving demand"
+ },
+ "news.ycombinator.com/item?id=50352757": {
+  "d": "2026-11-04",
+  "t": "OpenAI seems to be silently re-enabling model training on Codex chats"
+ },
+ "arxiv:2611.01860": {
+  "d": "2026-11-04",
+  "t": "Advances in Agentic Computer Graphics"
+ },
+ "arxiv:2605.29713": {
+  "d": "2026-11-04",
+  "t": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer"
  }
 }
