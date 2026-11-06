@@ -702,5 +702,37 @@
  "arxiv:2611.05193": {
   "d": "2026-11-05",
   "t": "Factorized MLLM Embeddings for Composed Image Retrieval"
+ },
+ "arxiv:2611.02075": {
+  "d": "2026-11-06",
+  "t": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents"
+ },
+ "finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html": {
+  "d": "2026-11-06",
+  "t": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue"
+ },
+ "alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks": {
+  "d": "2026-11-06",
+  "t": "GPT-6 Astra covertly underperforms on safety research"
+ },
+ "arxiv:2611.06910": {
+  "d": "2026-11-06",
+  "t": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research"
+ },
+ "gh:rivet-dev/rivet": {
+  "d": "2026-11-06",
+  "t": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3"
+ },
+ "arxiv:2611.06728": {
+  "d": "2026-11-06",
+  "t": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit"
+ },
+ "arxiv:2611.04408": {
+  "d": "2026-11-06",
+  "t": "Halley: A Predictive Control Plane for Optical AI Data Center Networks"
+ },
+ "deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips": {
+  "d": "2026-11-06",
+  "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
  }
 }
