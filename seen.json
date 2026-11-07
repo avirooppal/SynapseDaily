@@ -734,5 +734,37 @@
  "deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips": {
   "d": "2026-11-06",
   "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+ },
+ "planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai": {
+  "d": "2026-11-07",
+  "t": "AI is dramatically accelerating AI research"
+ },
+ "arxiv:2611.08449": {
+  "d": "2026-11-07",
+  "t": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding"
+ },
+ "arxiv:2611.04277": {
+  "d": "2026-11-07",
+  "t": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training"
+ },
+ "blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash": {
+  "d": "2026-11-07",
+  "t": "Gemini Omni 1.2 Flash"
+ },
+ "arxiv:2611.08373": {
+  "d": "2026-11-07",
+  "t": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training"
+ },
+ "arxiv:2611.00883": {
+  "d": "2026-11-07",
+  "t": "Random Is Almost Enough? Stable and Low-Cost Benchmark Compression via BestRand"
+ },
+ "huggingface.co/blog/allenai/toyblocks": {
+  "d": "2026-11-07",
+  "t": "ToyBlocks: A controlled world for robot learning and evaluation"
+ },
+ "gh:dsx-ai-factory/nvke": {
+  "d": "2026-11-07",
+  "t": "Nvidia Kubernetes Engine (NVKE)"
  }
 }
