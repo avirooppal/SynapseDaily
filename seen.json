@@ -766,5 +766,33 @@
  "gh:dsx-ai-factory/nvke": {
   "d": "2026-11-07",
   "t": "Nvidia Kubernetes Engine (NVKE)"
+ },
+ "anthropic.com/research/components-of-agent-memory": {
+  "d": "2026-11-08",
+  "t": "The Components of Agent Memory"
+ },
+ "arxiv:2611.07392": {
+  "d": "2026-11-08",
+  "t": "WeLM-Image: A Unified Image Generation Model towards Visual Intelligence"
+ },
+ "arxiv:2611.08376": {
+  "d": "2026-11-08",
+  "t": "Muir: Linear Attention with Sensitivity-Allocated Gating and Matched-Filter Readout"
+ },
+ "github.com/ggml-org/llama.cpp/pull/30966": {
+  "d": "2026-11-08",
+  "t": "llama_moe_cache: run missed experts on CPU, add tuning script by am17an · Pull Request #30966 · ggml-org/llama.cpp"
+ },
+ "arxiv:2611.06741": {
+  "d": "2026-11-08",
+  "t": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing"
+ },
+ "hunch.net?p=13764006": {
+  "d": "2026-11-08",
+  "t": "The end of Microsoft Research's AI Frontiers group"
+ },
+ "arxiv:2611.05376": {
+  "d": "2026-11-08",
+  "t": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence"
  }
 }
