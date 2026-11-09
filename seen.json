@@ -794,5 +794,37 @@
  "arxiv:2611.05376": {
   "d": "2026-11-08",
   "t": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence"
+ },
+ "gh:synchopate/llama-modchip": {
+  "d": "2026-11-09",
+  "t": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU"
+ },
+ "arxiv:2611.08264": {
+  "d": "2026-11-09",
+  "t": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes"
+ },
+ "thestateofai.com/news/goldman-sachs-claude-code-traders-bankers": {
+  "d": "2026-11-09",
+  "t": "Goldman Sachs is pulling Claude Code from its bankers and traders"
+ },
+ "lorekit.io/blog/open-agent-memory-format": {
+  "d": "2026-11-09",
+  "t": "Agent memory needs its OpenTelemetry moment"
+ },
+ "stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget": {
+  "d": "2026-11-09",
+  "t": "Apple capped engineers at a $200 daily AI budget"
+ },
+ "en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii": {
+  "d": "2026-11-09",
+  "t": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI."
+ },
+ "matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html": {
+  "d": "2026-11-09",
+  "t": "I'm not convinced the AI bubble exists"
+ },
+ "caleb.software/posts/claude-to-pi.html": {
+  "d": "2026-11-09",
+  "t": "Goodbye Claude, hello Pi"
  }
 }
