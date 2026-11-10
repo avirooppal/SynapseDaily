@@ -826,5 +826,37 @@
  "caleb.software/posts/claude-to-pi.html": {
   "d": "2026-11-09",
   "t": "Goodbye Claude, hello Pi"
+ },
+ "anthropic.com/claude-fable-and-mythos-5-2": {
+  "d": "2026-11-10",
+  "t": "Claude Fable 5.2 and Mythos 5.2"
+ },
+ "gh:thisisme6598/gemini_files": {
+  "d": "2026-11-10",
+  "t": "Google Gemini routes personal Drive files and emails to human annotators"
+ },
+ "blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx": {
+  "d": "2026-11-10",
+  "t": "TPU 8tx and TPU 8i Max"
+ },
+ "arxiv:2611.03953": {
+  "d": "2026-11-10",
+  "t": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors"
+ },
+ "arxiv:2611.09124": {
+  "d": "2026-11-10",
+  "t": "Toward the Era of Agentic Embodied Intelligence"
+ },
+ "arxiv:2611.12806": {
+  "d": "2026-11-10",
+  "t": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation"
+ },
+ "artificialanalysis.ai/models/claude-fable-5-2": {
+  "d": "2026-11-10",
+  "t": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far"
+ },
+ "cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html": {
+  "d": "2026-11-10",
+  "t": "CoreWeave bond yield tops 16% as AI credit stress rises"
  }
 }
