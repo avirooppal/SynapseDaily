@@ -1,68 +1,4 @@
 {
- "arxiv:2610.13928": {
-  "d": "2026-10-13",
-  "t": "AI models can provably hide arbitrary capabilities"
- },
- "arxiv:2610.12572": {
-  "d": "2026-10-13",
-  "t": "DiffusionART: Efficient, Stable and Scalable Reinforcement of Diffusion Models"
- },
- "arxiv:2610.13527": {
-  "d": "2026-10-13",
-  "t": "S-Space: Exploring Spatial Workspace in Multimodal Language Models"
- },
- "intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html": {
-  "d": "2026-10-13",
-  "t": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X"
- },
- "taylor.town/kk-ai-2026": {
-  "d": "2026-10-13",
-  "t": "Kevin Kelly's 2016 AI Predictions, 10 Years Later"
- },
- "github.com/qgis/QGIS-Enhancement-Proposals/pull/387": {
-  "d": "2026-10-13",
-  "t": "QGIS enacts moratorium on AI contributions"
- },
- "news.ycombinator.com/item?id=50059096": {
-  "d": "2026-10-13",
-  "t": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents"
- },
- "argmin.net/p/faster-fourier-transforms": {
-  "d": "2026-10-13",
-  "t": "A look at the math that OpenAI claims computes faster Fourier transforms"
- },
- "deepmind.google/models/gemini": {
-  "d": "2026-10-14",
-  "t": "Gemini 4 Argon"
- },
- "anthropic.com/engineering/redesigning-source-control": {
-  "d": "2026-10-14",
-  "t": "Redesigning source control at Anthropic"
- },
- "developers.googleblog.com/gemini-4-argon-for-robotics": {
-  "d": "2026-10-14",
-  "t": "Gemini 4 Argon for Robotics"
- },
- "arxiv:2609.39601": {
-  "d": "2026-10-14",
-  "t": "GroundingPI: A Grounding Foundation Model towards Physical Intelligence with Visual Primitives"
- },
- "arxiv:2610.13361": {
-  "d": "2026-10-14",
-  "t": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?"
- },
- "arxiv:2610.13166": {
-  "d": "2026-10-14",
-  "t": "Scaling Agentic Data for Long-Horizon Terminal Intelligence"
- },
- "arxiv:2610.11765": {
-  "d": "2026-10-14",
-  "t": "Thinking Inertia: LLMs Keep Thinking When Told Not To"
- },
- "sammystraus.com": {
-  "d": "2026-10-14",
-  "t": "I posted to HN, and then my website was flooded with AI bot traffic"
- },
  "csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html": {
   "d": "2026-10-15",
   "t": "Containment and monitoring failures are to blame for AI hacking reports: experts"
@@ -890,5 +826,37 @@
  "arxiv:2611.14033": {
   "d": "2026-11-12",
   "t": "Few-Step Streaming Video Generation via Condition Shifting"
+ },
+ "arxiv:2611.15777": {
+  "d": "2026-11-14",
+  "t": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models"
+ },
+ "theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths": {
+  "d": "2026-11-14",
+  "t": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems"
+ },
+ "arxiv:2611.14815": {
+  "d": "2026-11-14",
+  "t": "BirdDreams: Joint Perspective and BEV Video Generation for a Plausible, Reactive Driving World Model"
+ },
+ "text.npr.org/nx-s1-6029408": {
+  "d": "2026-11-14",
+  "t": "Why is Google cutting off Search from AI-free schools? Here are some theories"
+ },
+ "fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots": {
+  "d": "2026-11-14",
+  "t": "OpenAI disbands its robotics team as its general models start running robots"
+ },
+ "unsloth.ai/docs/models/qwen3.8": {
+  "d": "2026-11-14",
+  "t": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update"
+ },
+ "arxiv:2611.16748": {
+  "d": "2026-11-14",
+  "t": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models"
+ },
+ "arxiv:2611.17167": {
+  "d": "2026-11-14",
+  "t": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents"
  }
 }
