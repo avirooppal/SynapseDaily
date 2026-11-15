@@ -1,36 +1,4 @@
 {
- "csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html": {
-  "d": "2026-10-15",
-  "t": "Containment and monitoring failures are to blame for AI hacking reports: experts"
- },
- "arxiv:2610.20584": {
-  "d": "2026-10-15",
-  "t": "Player-1: Learning to Play from Synthetic Experience"
- },
- "openai.com/index/third-moment-research": {
-  "d": "2026-10-15",
-  "t": "How Third Moment Research runs 10,000 agents for 36+ hours"
- },
- "openai.com/index/block-ai-powered-security": {
-  "d": "2026-10-15",
-  "t": "How Block is building AI-powered security with OpenAI technology"
- },
- "arxiv:2610.18773": {
-  "d": "2026-10-15",
-  "t": "Jeva: System One Models from First Principles"
- },
- "arcfu.com/post/the-emperor-pelican-has-no-clothes": {
-  "d": "2026-10-15",
-  "t": "Why do LLM pelicans look like this?"
- },
- "openai.com/index/amp-beyond-coding": {
-  "d": "2026-10-15",
-  "t": "Amp puts AI agents to work beyond code with OpenAI models"
- },
- "openai.com/index/sentinelone": {
-  "d": "2026-10-15",
-  "t": "SentinelOne cuts malware analysis from weeks to hours"
- },
  "arxiv:2610.22350": {
   "d": "2026-10-18",
   "t": "FDE-Gym: The Last Mile of AI Delivery"
@@ -858,5 +826,37 @@
  "arxiv:2611.17167": {
   "d": "2026-11-14",
   "t": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents"
+ },
+ "arxiv:2611.17334": {
+  "d": "2026-11-15",
+  "t": "Unbundling Multimodal Vision Encoding"
+ },
+ "arxiv:2610.40394": {
+  "d": "2026-11-15",
+  "t": "Scaling Mathematical Proof Supervision from Structured Textbooks"
+ },
+ "arxiv:2611.13004": {
+  "d": "2026-11-15",
+  "t": "G-STAR: Group-Scaled Token Capacity for Deeply Compressed Autoregressive Generation"
+ },
+ "developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm": {
+  "d": "2026-11-15",
+  "t": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM"
+ },
+ "arxiv:2611.15131": {
+  "d": "2026-11-15",
+  "t": "Duo: A Reciprocal World Model for Full-Duplex Interaction"
+ },
+ "gh:paul-nameless/agweb": {
+  "d": "2026-11-15",
+  "t": "Show HN: Agweb – a browser for agents that stays out of your way"
+ },
+ "tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu": {
+  "d": "2026-11-15",
+  "t": "The lawyer who posts here about his V100s got his story picked up by Tom’s Hardware"
+ },
+ "gh:vaibhaav-tiwari/deepseek-v3-jax": {
+  "d": "2026-11-15",
+  "t": "Show HN: DeepSeek V3 in ~200 lines of pure Jax"
  }
 }
