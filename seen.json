@@ -886,5 +886,37 @@
  "magazine.sebastianraschka.com/p/understanding-positional-embeddings": {
   "d": "2026-11-16",
   "t": "Understanding Positional Embeddings in Modern LLMs"
+ },
+ "wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess": {
+  "d": "2026-11-17",
+  "t": "Nvidia was in trouble before the Jensen Huang mess"
+ },
+ "arxiv:2611.12068": {
+  "d": "2026-11-17",
+  "t": "MIRIX-2.0: Multi-Agent Memory System"
+ },
+ "arxiv:2611.18482": {
+  "d": "2026-11-17",
+  "t": "MMFlash: Faster Speculative Decoding for Vision-Language Models"
+ },
+ "arxiv:2611.17831": {
+  "d": "2026-11-17",
+  "t": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations"
+ },
+ "arxiv:2611.19937": {
+  "d": "2026-11-17",
+  "t": "AllocFlow: End-to-End Portfolio Trading Action Generation from Raw Market Data"
+ },
+ "xusheng.dev/posts/windows-coding-agent-telemetry": {
+  "d": "2026-11-17",
+  "t": "Windows 11 is collecting data on which coding agents and developer tools you use"
+ },
+ "blog.antonio.cx/running-agents-with-lend": {
+  "d": "2026-11-17",
+  "t": "Running coding agents without handing them my credentials"
+ },
+ "openai.com/index/our-first-phase-of-embedded-assessments": {
+  "d": "2026-11-17",
+  "t": "First phase of embedded assessments at OpenAI"
  }
 }
