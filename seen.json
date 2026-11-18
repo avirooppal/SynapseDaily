@@ -1,36 +1,4 @@
 {
- "arxiv:2610.22350": {
-  "d": "2026-10-18",
-  "t": "FDE-Gym: The Last Mile of AI Delivery"
- },
- "openrouter.ai/deepseek/deepseek-v4.1-flash-1017": {
-  "d": "2026-10-18",
-  "t": "DeepSeek: DeepSeek v4.1 Flash 1017"
- },
- "arxiv:2610.20939": {
-  "d": "2026-10-18",
-  "t": "MAI-Gym: An Open All-in-One Platform for GUI Agent Evaluation and RL Training across Mobile and Computer Environments"
- },
- "arxiv:2610.22200": {
-  "d": "2026-10-18",
-  "t": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use"
- },
- "arxiv:2610.22276": {
-  "d": "2026-10-18",
-  "t": "MJev-Spatial: System One Spatial Intelligence via Native Attention Matching"
- },
- "hf:deepseek-ai/deepseek-v4.1-flash-1017": {
-  "d": "2026-10-18",
-  "t": "DeepSeek-v4.1-Flash-1017"
- },
- "alexwang.ai/posts/associative-memory": {
-  "d": "2026-10-18",
-  "t": "You could have invented transformers from memory"
- },
- "llmspeed.dev": {
-  "d": "2026-10-18",
-  "t": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware"
- },
  "arxiv:2610.18861": {
   "d": "2026-10-19",
   "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
@@ -918,5 +886,37 @@
  "openai.com/index/our-first-phase-of-embedded-assessments": {
   "d": "2026-11-17",
   "t": "First phase of embedded assessments at OpenAI"
+ },
+ "complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review": {
+  "d": "2026-11-18",
+  "t": "Harvard researchers find AI coding agents shifted the bottleneck to code review"
+ },
+ "revscope.co/blog/search-seo-geo-2026": {
+  "d": "2026-11-18",
+  "t": "Google's AI answers reducing search traffic by 40%"
+ },
+ "arxiv:2611.21072": {
+  "d": "2026-11-18",
+  "t": "Sage S2.1 Flash Technical Report"
+ },
+ "claude.dev/blog/how-the-claude-code-team-thinks-about-verification": {
+  "d": "2026-11-18",
+  "t": "How the Claude Code team thinks about verification"
+ },
+ "arxiv:2611.21218": {
+  "d": "2026-11-18",
+  "t": "InclusionMed: Benchmarking AI for Inclusive Healthcare"
+ },
+ "arxiv:2611.22115": {
+  "d": "2026-11-18",
+  "t": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks"
+ },
+ "arxiv:2611.17621": {
+  "d": "2026-11-18",
+  "t": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs"
+ },
+ "kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long": {
+  "d": "2026-11-18",
+  "t": "Why is Gemini 4 Carbon taking so long?"
  }
 }
