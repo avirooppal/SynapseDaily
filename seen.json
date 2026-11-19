@@ -1,36 +1,4 @@
 {
- "arxiv:2610.18861": {
-  "d": "2026-10-19",
-  "t": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text"
- },
- "arxiv:2610.18784": {
-  "d": "2026-10-19",
-  "t": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents"
- },
- "api-docs.deepseek.com/guides/search": {
-  "d": "2026-10-19",
-  "t": "DeepSeek search and fetch – $0.75 per 1000 successful requests"
- },
- "arxiv:2610.21261": {
-  "d": "2026-10-19",
-  "t": "Behavioral Compositionality of Sparse Autoencoder Representations"
- },
- "arxiv:2610.22471": {
-  "d": "2026-10-19",
-  "t": "Has GPT-6-Astra Achieved Embodied Intelligence?"
- },
- "blog.picheta.me/post/killswitch-lang": {
-  "d": "2026-10-19",
-  "t": "I built a programming language that LLMs can't use"
- },
- "sphinx-six-theta.vercel.app": {
-  "d": "2026-10-19",
-  "t": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping"
- },
- "tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model": {
-  "d": "2026-10-19",
-  "t": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages"
- },
  "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
   "d": "2026-10-20",
   "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
@@ -918,5 +886,37 @@
  "kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long": {
   "d": "2026-11-18",
   "t": "Why is Gemini 4 Carbon taking so long?"
+ },
+ "blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon": {
+  "d": "2026-11-19",
+  "t": "Gemini 4 Neon"
+ },
+ "deepmind.google/blog/introducing-gemini-4-neon": {
+  "d": "2026-11-19",
+  "t": "Introducing Gemini 4 Neon"
+ },
+ "energy-based-reasoners.github.io": {
+  "d": "2026-11-19",
+  "t": "Energy-Based Reasoners: 385x more efficient inference"
+ },
+ "europeanbusinessmagazine.com/ai-agents-better-questions-kpmg": {
+  "d": "2026-11-19",
+  "t": "AI agents ask better questions than KPMG accountants in audit trial"
+ },
+ "deepmind.google/blog/genie-4-is-now-available": {
+  "d": "2026-11-19",
+  "t": "Genie 4 is now available"
+ },
+ "arxiv:2611.22055": {
+  "d": "2026-11-19",
+  "t": "Weight-Space Programming Doesn't Need Transformers"
+ },
+ "micjm.com/blog/gemini-4-neon-looks-like-a-top-model": {
+  "d": "2026-11-19",
+  "t": "Gemini 4 Neon looks like an Opus 5.5 competitor"
+ },
+ "slowchronicle.com/posts/llm-assisted-reverse-engineering": {
+  "d": "2026-11-19",
+  "t": "LLM assisted reverse engineering"
  }
 }
