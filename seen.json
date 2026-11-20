@@ -1,36 +1,4 @@
 {
- "home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science": {
-  "d": "2026-10-20",
-  "t": "CERN and Mistral sign a statement of intent to establish a strategic partnership"
- },
- "inceptionlabs.ai/blog/introducing-mercury-3": {
-  "d": "2026-10-20",
-  "t": "Mercury 3: Diffusion at scale"
- },
- "mistral.ai/news/timestral": {
-  "d": "2026-10-20",
-  "t": "Timestral: Mistral's time-series foundation models"
- },
- "arxiv:2610.23479": {
-  "d": "2026-10-20",
-  "t": "HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents"
- },
- "arxiv:2610.20424": {
-  "d": "2026-10-20",
-  "t": "BizBench: Unveiling Hidden Challenges in Deploying Long-Horizon Agents for Real-World Business"
- },
- "arxiv:2610.20951": {
-  "d": "2026-10-20",
-  "t": "LEV: Thinking Fast and Deep with Looped Decision Models"
- },
- "arxiv:2610.21783": {
-  "d": "2026-10-20",
-  "t": "Learning to Think and Explore in 3D World"
- },
- "redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions": {
-  "d": "2026-10-20",
-  "t": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator"
- },
  "gh:deepseek-ai/deepinfer": {
   "d": "2026-10-21",
   "t": "DeepInfer: High-performance inference framework for DeepSeek models"
@@ -918,5 +886,37 @@
  "slowchronicle.com/posts/llm-assisted-reverse-engineering": {
   "d": "2026-11-19",
   "t": "LLM assisted reverse engineering"
+ },
+ "anthropic.com/research/claude-black-hole-physics": {
+  "d": "2026-11-20",
+  "t": "Claude solves two open problems in the physics of black holes"
+ },
+ "research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer": {
+  "d": "2026-11-20",
+  "t": "A game you cannot win unless you have a quantum computer"
+ },
+ "arxiv:2611.24738": {
+  "d": "2026-11-20",
+  "t": "Jeveration: System One Models Now Generate"
+ },
+ "arxiv:2611.26444": {
+  "d": "2026-11-20",
+  "t": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation"
+ },
+ "developer.nvidia.com/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo": {
+  "d": "2026-11-20",
+  "t": "Reducing Rollout Bottlenecks in Reinforcement Learning with NVIDIA Dynamo"
+ },
+ "thedataexchange.media/pete-warden-moonshine": {
+  "d": "2026-11-20",
+  "t": "Pete Warden on local AI, open models, voice interfaces, the future of hardware"
+ },
+ "restofworld.org/2026/ai-jobs-skills-gig-work": {
+  "d": "2026-11-20",
+  "t": "AI isn't replacing your job. It's turning it into low-paid gig work"
+ },
+ "spectrum.ieee.org/ai-superintelligence-debate": {
+  "d": "2026-11-20",
+  "t": "The AI Superintelligence Debate Has Serious Flaws"
  }
 }
