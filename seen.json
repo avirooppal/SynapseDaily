@@ -1,36 +1,4 @@
 {
- "gh:deepseek-ai/deepinfer": {
-  "d": "2026-10-21",
-  "t": "DeepInfer: High-performance inference framework for DeepSeek models"
- },
- "peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web": {
-  "d": "2026-10-21",
-  "t": "Publish fake stats, get cited in LLMs"
- },
- "arxiv:2610.26802": {
-  "d": "2026-10-21",
-  "t": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding"
- },
- "arxiv:2610.24087": {
-  "d": "2026-10-21",
-  "t": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners"
- },
- "arxiv:2610.26625": {
-  "d": "2026-10-21",
-  "t": "EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience"
- },
- "arxiv:2610.26549": {
-  "d": "2026-10-21",
-  "t": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience"
- },
- "gh:google-pytorch/torch_tpu": {
-  "d": "2026-10-21",
-  "t": "Google open-sources TorchTPU, a native PyTorch back end for TPUs"
- },
- "ign.com/articles/steam-fans-are-begging-for-a-no-ai-filter-as-steam-next-fest-is-filled-with-slop": {
-  "d": "2026-10-21",
-  "t": "Steam Users Beg for \"No AI\" Filter as Vibecoders Flood Next Fest"
- },
  "wiz.io/blog/php2shell-php-rce": {
   "d": "2026-10-22",
   "t": "PHP2Shell: AI uncovers critical RCE in PHP"
@@ -918,5 +886,37 @@
  "spectrum.ieee.org/ai-superintelligence-debate": {
   "d": "2026-11-20",
   "t": "The AI Superintelligence Debate Has Serious Flaws"
+ },
+ "arxiv:2611.26603": {
+  "d": "2026-11-21",
+  "t": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth"
+ },
+ "architectlabs.com/blog/frostbite": {
+  "d": "2026-11-21",
+  "t": "Frostbite: A new CPU architecture discovered, designed and verified by AI"
+ },
+ "signal.org/blog/protecting-your-privacy": {
+  "d": "2026-11-21",
+  "t": "Restricting AI agents in mobile operating systems platforms from capturing data"
+ },
+ "ankitg.me/blog/vibecoding-inference-chip": {
+  "d": "2026-11-21",
+  "t": "Vibecoding an inference chip"
+ },
+ "arxiv:2611.21373": {
+  "d": "2026-11-21",
+  "t": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection"
+ },
+ "arxiv:2611.26409": {
+  "d": "2026-11-21",
+  "t": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding"
+ },
+ "openai.com/index/combatting-adversarial-distillation": {
+  "d": "2026-11-21",
+  "t": "Combatting adversarial distillation"
+ },
+ "arxiv:2611.26590": {
+  "d": "2026-11-21",
+  "t": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models"
  }
 }
